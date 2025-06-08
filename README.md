@@ -2,7 +2,9 @@
 Feel free to use them for a nice looking ghostty terminal and tmux
 
 ## How to install from Brewfile
-`brew bundle cleanup --file=~/dotfiles/Brewfile`
+`brew bundle --file=~/dotfiles/Brewfile`
+
+```
 .
 ├── .tmux.conf
 ├── .zprofile
