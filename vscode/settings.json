@@ -1,0 +1,22 @@
+{
+    // Neovim
+    "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "files.autoSave": "afterDelay",
+    "vscode-neovim.compositeKeys": {},
+    "workbench.iconTheme": "catppuccin-mocha",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "editor.fontSize": 15,
+    "git.openRepositoryInParentFolders": "never",
+    "editor.lineNumbers": "relative",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "workbench.sideBar.location": "right"
+}
