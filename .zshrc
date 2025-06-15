@@ -9,3 +9,6 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
+alias brewfile-update='brew bundle dump --file=~/dotfiles/Brewfile --force'
+alias brewfile-clean='brew bundle cleanup --file=~/dotfiles/Brewfile --force'
+
