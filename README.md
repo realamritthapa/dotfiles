@@ -19,7 +19,27 @@ Feel free to use them for a nice looking ghostty terminal and tmux
 │   │   │   └── ghostty
 │   │   │       └── config
 │   │   └── config
+│   ├── nvim
+│   │   ├── init.lua
+│   │   ├── lazy-lock.json
+│   │   └── lua
+│   │       ├── plugins
+│   │       │   ├── autoclose.lua
+│   │       │   ├── catppuccin.lua
+│   │       │   ├── completions.lua
+│   │       │   ├── gitsigns.lua
+│   │       │   ├── lsp-config.lua
+│   │       │   ├── lualine.lua
+│   │       │   ├── neo-tree.lua
+│   │       │   ├── telescope.lua
+│   │       │   └── treesitter.lua
+│   │       ├── plugins.lua
+│   │       └── vim-options.lua
 │   └── starship.toml
-└── README.md
+├── README.md
+├── setup.sh
+└── vscode
+    └── settings.json
 
-5 directories, 8 files
+9 directories, 23 files
+
