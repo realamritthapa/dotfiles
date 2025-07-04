@@ -7,6 +7,7 @@ Feel free to use them for a nice looking ghostty terminal and tmux
 ## How to install from Brewfile
 `brew bundle --file=~/dotfiles/Brewfile`
 
+
 ```
 .
 ├── .tmux.conf
@@ -27,6 +28,7 @@ Feel free to use them for a nice looking ghostty terminal and tmux
 │   │       │   ├── autoclose.lua
 │   │       │   ├── catppuccin.lua
 │   │       │   ├── completions.lua
+│   │       │   ├── copilot.lua
 │   │       │   ├── gitsigns.lua
 │   │       │   ├── lsp-config.lua
 │   │       │   ├── lualine.lua
@@ -41,5 +43,5 @@ Feel free to use them for a nice looking ghostty terminal and tmux
 └── vscode
     └── settings.json
 
-9 directories, 23 files
+9 directories, 24 files
 
