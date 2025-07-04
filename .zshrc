@@ -11,4 +11,5 @@ eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 alias brewfile-update='brew bundle dump --file=~/dotfiles/Brewfile --force'
 alias brewfile-clean='brew bundle cleanup --file=~/dotfiles/Brewfile --force'
-
+alias safari="open -a 'safari'"
+alias chrome="open -a 'Google Chrome'"
