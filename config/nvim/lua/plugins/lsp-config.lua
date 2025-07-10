@@ -10,7 +10,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require ("mason-lspconfig").setup({
-        ensure_installed = {"lua_ls", "ts_ls", "html", "cssls", "tailwindcss"}
+        ensure_installed = {"lua_ls", "ts_ls", "html", "cssls", "tailwindcss", "gopls"},
       })
     end
   },
@@ -23,6 +23,21 @@ return {
     --lspconfig.html.setup({})
     --lspconfig.cssls.setup({})
     --lspconfig.tailwindcss.setup({})
+    lspconfig.gopls.setup({
+      settings = {
+        gopls = {
+          analyses = {
+            unusedparams = true,
+            shadow = true,
+          },
+          staticcheck = true,
+          -- Enables function parameter placeholders when completing function signatures
+          usePlaceholders = true,
+          completeUnimported = true,
+          gofumpt = true,
+        },
+      },
+    })
     vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
     vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
 vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})
