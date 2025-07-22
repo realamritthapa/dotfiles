@@ -6,6 +6,15 @@ return {
 		"nvim-tree/nvim-web-devicons",
 		"MunifTanjim/nui.nvim",
 	},
+  opts = {
+    filesystem = {
+      filtered_items = {
+        visible = true,
+        hide_dotfiles = false, -- Show dotfiles 
+        hide_gitignored = false, -- Show gitignored files
+      }
+    }
+  },
 	config = function()
 		require("neo-tree").setup({
 			window = {

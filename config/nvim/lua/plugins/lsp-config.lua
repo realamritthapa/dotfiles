@@ -10,7 +10,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require ("mason-lspconfig").setup({
-        ensure_installed = {"lua_ls", "ts_ls", "html", "cssls", "tailwindcss", "gopls"},
+        ensure_installed = {"lua_ls", "ts_ls", "html", "cssls", "tailwindcss", "gopls", "terraformls"},
       })
     end
   },
@@ -23,6 +23,9 @@ return {
     --lspconfig.html.setup({})
     --lspconfig.cssls.setup({})
     --lspconfig.tailwindcss.setup({})
+      require("lspconfig").terraformls.setup({
+  root_dir = require("lspconfig.util").root_pattern(".terraform", ".git", "*.tf"),
+})
     vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
     vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
 --vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})
