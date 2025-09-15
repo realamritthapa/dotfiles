@@ -19,5 +19,6 @@
     "editor.cursorSmoothCaretAnimation": "on",
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "workbench.sideBar.location": "right",
-    "editor.stickyScroll.enabled": false
+    "editor.stickyScroll.enabled": false,
+    "python.defaultInterpreterPath": "/Users/amrit/oden/Backend_Takehome_3/env"
 }
